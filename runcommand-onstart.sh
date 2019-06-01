@@ -47,6 +47,15 @@ if [ $system == "atari800" ]; then
     sed -i 's/atari800\_system = .*/atari800\_system = \"400\/800 \(OS B\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
     sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=A/g' /opt/retropie/configs/atari800/atari800.cfg
     sed -i 's/OS\_400\/800\_VERSION.*/OS\_400\/800\_VERSION=A-PAL/g' /opt/retropie/configs/atari800/atari800.cfg
+  elif [[ $rom == *OSb* ]]; then
+
+    # if it's OSb, also do 400/800, but set it to the custom ROM, which is the
+    # recommended ATARIOSB.ROM on the wiki
+
+    echo "Game requires OSb." >&2
+    sed -i 's/atari800\_system = .*/atari800\_system = \"400\/800 \(OS B\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
+    sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=AUTO/g' /opt/retropie/configs/atari800/atari800.cfg
+    sed -i 's/OS\_400\/800\_VERSION.*/OS\_400\/800\_VERSION=CUSTOM/g' /opt/retropie/configs/atari800/atari800.cfg
   else
     sed -i 's/atari800\_system = .*/atari800\_system = \"130XE \(128K\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
     sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=AUTO/g' /opt/retropie/configs/atari800/atari800.cfg
