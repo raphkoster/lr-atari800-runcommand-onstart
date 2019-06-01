@@ -1,0 +1,70 @@
+1 = brown/blue 1
+2 = brown/blue 2
+3 = GTIA
+4 = CTIA
+
+221B Baker St	1
+3d Red Baron	2
+AE by Broderbund	1
+Astro Blaster (pinball)	2
+AutoDuel	3
+Aztec	3
+Bug Off	3
+Bumper!	1
+Castle Wolfenstein	1
+Championship Lode Runner	1
+Checkers (Odesta)	2
+Choplifter by Broderbund (cart and disk; the cart by Atari uses 4-color Gr. 15)	1
+Circus Pinball	1
+Citadel	2
+Classy Chassy (pinball)	1
+Cosmic Balance II`	1
+Cosmic Pinball	1
+Crazy Eights	1
+Crazy Kicker Pinball	1
+Creepshow Pinball	1
+Crossfire (disk version; the cart version is in color already)	1
+Crush Crumble and Chomp	1
+Crypt of the Undead	2
+Cytron Masters	1
+Dark Crystal	1
+Das U Boot pinball	1
+David`s Midnight Magic by Atari (cart.)	1
+David`s Midnight Magic by Broderbund (disk)	1
+Deadstick Landing	4
+Demon Ball (pinbball)	1
+Diamond Mine	1
+Dragon's Keep	1
+Drol by Broderbund (disk, note there is a color hack for this) 	1
+Escape From Vulcan's Island	1
+Flight Simulator II	2
+Fooblizky	2
+Gwendolyn	1
+Hard Hat Mack	1
+Head over  Heels	0
+High Rise by Joe Calabrese	1
+Jawbreaker	3 or 4
+Lode Runner by Atari	1
+Lode Runner by Broderbund (disk, note there is a color hack for this)	1
+Lunar Leeper	1
+Malpass	1
+Marauder	2
+Marc Benioff adventures	
+Micro League Baseball	4
+Mission Asteroid	1
+Mr. Do	2
+Night Mission Pinball	2
+Nightmare, The	0
+Ogre	1
+Pensate	1
+Pinball Construction Set (and all pinballs created with it)	1
+Pool 1.5	1
+Pool 400	1
+The Wizard and the Princess	1
+Threshold	2
+Tower Toppler	
+Twerps	3
+Ultima 2	1
+Ultima 3	1
+Ultima 4	1
+Ulysses and the Goilden Fleece	1
