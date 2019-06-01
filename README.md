@@ -6,7 +6,7 @@ This script will:
 * Automatically launch PAL games in PAL.
 * Automatically enable BASIC for games that require it.
 * Let you choose from the four NTSC artifacting modes at the runcommand menu by setting an emulator for a specific rom.
-* Automatically set the system to OSa for games that require it.
+* Automatically set the system to OSa or OSb for games that require it.
 
 ## INSTALLATION
 
