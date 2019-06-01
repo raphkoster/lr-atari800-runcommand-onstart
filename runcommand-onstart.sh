@@ -50,7 +50,7 @@ if [ $system == "atari800" ]; then
   else
     sed -i 's/atari800\_system = .*/atari800\_system = \"130XE \(128K\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
     sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=AUTO/g' /opt/retropie/configs/atari800/atari800.cfg
-    sed -i 's/OS\_400\/800\_VERSION.*/OS\_400\/800\_VERSION=AUTO/g' /opt/retropie/configs/atari800/atari800.cfg
+    sed -i 's/OS\_400\/800\_VERSION.*/OS\_400\/800\_VERSION=CUSTOM/g' /opt/retropie/configs/atari800/atari800.cfg
   fi
 
   # the script presumes that you have set up /opt/retropie/configs/atari800/emulators.cfg
