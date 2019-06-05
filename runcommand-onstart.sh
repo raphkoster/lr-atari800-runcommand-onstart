@@ -54,7 +54,7 @@ if [ $system == "atari800" ]; then
 
     echo "Game requires OSb." >&2
     sed -i 's/atari800\_system = .*/atari800\_system = \"400\/800 \(OS B\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
-    sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=AUTO/g' /opt/retropie/configs/atari800/atari800.cfg
+    sed -i 's/BASIC\_VERSION=.*/BASIC\_VERSION=B/g' /opt/retropie/configs/atari800/atari800.cfg
     sed -i 's/OS\_400\/800\_VERSION.*/OS\_400\/800\_VERSION=CUSTOM/g' /opt/retropie/configs/atari800/atari800.cfg
   else
     sed -i 's/atari800\_system = .*/atari800\_system = \"130XE \(128K\)\"/g' /opt/retropie/configs/all/retroarch-core-options.cfg
